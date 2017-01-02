@@ -1,0 +1,12 @@
+/* add custom styles */
+
+h1 {
+  color: red;
+}
+
+body {
+  background-image: url('../images/starfleet-background-white.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 55%;
+}
