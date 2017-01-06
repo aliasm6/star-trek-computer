@@ -6,10 +6,18 @@
     .module('myApp.components.lcars', [])
     .controller('lcarsController', lcarsController);
 
-  lcarsController.$inject = ['$scope'];
+  lcarsController.$inject = ['$scope', 'AnnyangService'];
 
-  function lcarsController($scope) {
+  function lcarsController($scope, AnnyangService) {
     /*jshint validthis: true */
+
+    this.commands = [
+      {
+        'Computer whats the weather like today': function() {
+          //get request to weather api
+        }
+      }
+    ]
   }
 
 })();

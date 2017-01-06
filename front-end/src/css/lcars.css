@@ -58,25 +58,52 @@ body {
 .enterprise-box {
   border: 1px solid white;
   border-radius: 50px 0;
-  height: 25vh;
-  width: 40vw;
-  margin-left: 5vw;
-  margin-top: 5vh;
+  height: 35vh;
+  width: 55vw;
+  /*margin-left: 5vw;
+  margin-top: 5vh;*/
+  position: absolute;
 }
 
 .enterprise-picture {
   height: 20vh;
   width: 30vw;
-  margin-left: 20%;
-  margin-top: 1%;
-  border: 1px solid white;
+  position: relative;
+  left: 35%;
+  margin-top: 2%;
 }
 
 .crew-logs-box {
   border: 1px solid red;
   border-radius: 10px;
-  width: 7vw;
+  width: 12vw;
+  height: 12vh;
+  /*margin-left: 1%;
+  margin-bottom: 5%;*/
+  margin-right: 0;
+  position: relative;
+  bottom: 7%;
+  left: 10%;
+}
+
+.rectangle {
   height: 7vh;
-  margin-left: 1%;
-  margin-bottom: 5%;
+  width: 11vw;
+  margin-left: 4%;
+  margin-top: 2%;
+}
+
+.yellow-border {
+  border: 1px solid yellow;
+}
+
+p {
+  color: yellow;
+}
+
+.ship-name {
+  color: #c2a15f;
+  width: 15vw;
+  margin: 0;
+  padding-left: 8%;
 }

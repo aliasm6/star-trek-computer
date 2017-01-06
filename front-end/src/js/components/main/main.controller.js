@@ -10,7 +10,7 @@
   function mainController($scope, AnnyangService, $window) {
     var vm = this;
 
-    vm.message = 'Default';
+    vm.message = '';
 
     vm.init = function() {
       // vm.clearResults();
