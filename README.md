@@ -1,6 +1,6 @@
 # Starship Enterprise Computer
 
-### Inspired by Mark Zuckerberg's setting (and completing) a personal 2016 tech goal of creating his own AI, I decided that my tech goal for 2017 would be to build the lcars computer from the Starship Enterprise!
+### Inspired by Mark Zuckerberg's setting of (and completing) a personal 2016 tech goal of creating his own AI, I decided that my tech goal for 2017 would be to build the lcars computer from the Starship Enterprise!
 
 - I'm using the Annyang library with AngularJS to build voice commands that will allow me to tell my computer to do any number of things.
 - I want to set up a server on a Raspberry pi to control technology around my house.
