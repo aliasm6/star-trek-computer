@@ -23,7 +23,10 @@
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <section>
-  <div class="info-section container">
-    <h1 class="idk">{{ lcarsCtrl.info }}</h1>
+  <div class="info-section container center-align">
+    <button ng-click="lcarsCtrl.commands[2]['computer get me a news article from *source']('espn')">Click</button>
+    <h1 class="idk" ng-if="lcarsCtrl.dataHeader">{{ lcarsCtrl.dataHeader }}</h1>
+    <p class="idk" ng-if="lcarsCtrl.description">{{ lcarsCtrl.description }}</p>
+    <p class="idk" ng-if="lcarsCtrl.temperature">{{ lcarsCtrl.temperature }}</p>
   </div>
 </section>
